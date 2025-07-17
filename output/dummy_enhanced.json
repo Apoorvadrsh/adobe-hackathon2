@@ -1,0 +1,64 @@
+{
+    "title": "My Awesome Document Title",
+    "headings": [
+        {
+            "text": "My Awesome Document Title",
+            "level": "H1",
+            "page": 1,
+            "font_size": 24.0,
+            "is_bold": true
+        },
+        {
+            "text": "1. Introduction to AI",
+            "level": "H2",
+            "page": 1,
+            "font_size": 18.0,
+            "is_bold": true
+        },
+        {
+            "text": "1.1 Machine Learning Basics",
+            "level": "H3",
+            "page": 1,
+            "font_size": 16.0,
+            "is_bold": true
+        },
+        {
+            "text": "1.2 Deep Learning Advances",
+            "level": "H3",
+            "page": 1,
+            "font_size": 16.0,
+            "is_bold": true
+        },
+        {
+            "text": "2. Applications of AI",
+            "level": "H2",
+            "page": 2,
+            "font_size": 18.0,
+            "is_bold": true
+        },
+        {
+            "text": "2.1 AI in Healthcare",
+            "level": "H3",
+            "page": 2,
+            "font_size": 16.0,
+            "is_bold": true
+        },
+        {
+            "text": "2.2 AI in Finance",
+            "level": "H3",
+            "page": 2,
+            "font_size": 16.0,
+            "is_bold": true
+        }
+    ],
+    "full_text_by_page": {
+        "1": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks.\n",
+        "2": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment.\n"
+    },
+    "metadata": {
+        "processing_time_seconds": 0.40906739234924316,
+        "detected_language": "en",
+        "total_pages": 2,
+        "total_headings": 7
+    }
+}

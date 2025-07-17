@@ -1,0 +1,42 @@
+{
+    "title": "Multilingual Document Test",
+    "headings": [
+        {
+            "text": "Multilingual Document Test",
+            "level": "H1",
+            "page": 1,
+            "font_size": 20.0,
+            "is_bold": true
+        },
+        {
+            "text": "1. English Section",
+            "level": "H4",
+            "page": 1,
+            "font_size": 16.0,
+            "is_bold": true
+        },
+        {
+            "text": "2. Secci\u00f3n en Espa\u00f1ol",
+            "level": "H4",
+            "page": 1,
+            "font_size": 16.0,
+            "is_bold": true
+        },
+        {
+            "text": "3. Section Fran\u00e7aise",
+            "level": "H4",
+            "page": 1,
+            "font_size": 16.0,
+            "is_bold": true
+        }
+    ],
+    "full_text_by_page": {
+        "1": "Multilingual Document Test\n1. English Section\nThis is an English paragraph about artificial intelligence.\n2. Secci\u00f3n en Espa\u00f1ol\nEsta es una secci\u00f3n en espa\u00f1ol sobre inteligencia artificial.\n3. Section Fran\u00e7aise\nCeci est une section fran\u00e7aise sur l'intelligence artificielle.\n"
+    },
+    "metadata": {
+        "processing_time_seconds": 0.013082742691040039,
+        "detected_language": "es",
+        "total_pages": 1,
+        "total_headings": 4
+    }
+}

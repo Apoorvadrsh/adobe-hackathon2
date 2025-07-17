@@ -1,0 +1,28 @@
+{
+    "title": "Multilingual Document Test",
+    "headings": [
+        {
+            "text": "Multilingual Document Test",
+            "level": "H1",
+            "page": 1
+        },
+        {
+            "text": "1. English Section",
+            "level": "H2",
+            "page": 1
+        },
+        {
+            "text": "2. Secci\u00f3n en Espa\u00f1ol",
+            "level": "H2",
+            "page": 1
+        },
+        {
+            "text": "3. Section Fran\u00e7aise",
+            "level": "H2",
+            "page": 1
+        }
+    ],
+    "full_text_by_page": {
+        "1": "Multilingual Document Test\n1. English Section\nThis is an English paragraph about artificial intelligence.\n2. Secci\u00f3n en Espa\u00f1ol\nEsta es una secci\u00f3n en espa\u00f1ol sobre inteligencia artificial.\n3. Section Fran\u00e7aise\nCeci est une section fran\u00e7aise sur l'intelligence artificielle.\n"
+    }
+}

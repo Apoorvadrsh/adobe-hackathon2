@@ -1,0 +1,67 @@
+{
+    "metadata": {
+        "persona": {
+            "name": "Tech Enthusiast",
+            "description": "A person interested in the latest advancements in artificial intelligence and machine learning, particularly their practical applications and societal impact."
+        },
+        "job_to_be_done": "Find relevant sections about AI applications."
+    },
+    "extracted_sections": [
+        {
+            "title": "My Awesome Document Title",
+            "level": "H1",
+            "page": 1,
+            "full_text_content": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks.\n",
+            "importance_rank": 1,
+            "refined_text": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks."
+        },
+        {
+            "title": "2. Applications of AI",
+            "level": "H1",
+            "page": 2,
+            "full_text_content": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment.\n",
+            "importance_rank": 2,
+            "refined_text": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment."
+        },
+        {
+            "title": "1. Introduction to AI",
+            "level": "H2",
+            "page": 1,
+            "full_text_content": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks.\n",
+            "importance_rank": 3,
+            "refined_text": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks."
+        },
+        {
+            "title": "2.1 AI in Healthcare",
+            "level": "H2",
+            "page": 2,
+            "full_text_content": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment.\n",
+            "importance_rank": 4,
+            "refined_text": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment."
+        },
+        {
+            "title": "2.2 AI in Finance",
+            "level": "H2",
+            "page": 2,
+            "full_text_content": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment.\n",
+            "importance_rank": 5,
+            "refined_text": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment."
+        },
+        {
+            "title": "1.1 Machine Learning Basics",
+            "level": "H3",
+            "page": 1,
+            "full_text_content": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks.\n",
+            "importance_rank": 6,
+            "refined_text": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks."
+        },
+        {
+            "title": "1.2 Deep Learning Advances",
+            "level": "H3",
+            "page": 1,
+            "full_text_content": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks.\n",
+            "importance_rank": 7,
+            "refined_text": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks."
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "original": {
+        "processing_time": 0.004403352737426758,
+        "total_headings": 4,
+        "headings": [
+            {
+                "text": "Multilingual Document Test",
+                "level": "H1",
+                "page": 1
+            },
+            {
+                "text": "1. English Section",
+                "level": "H2",
+                "page": 1
+            },
+            {
+                "text": "2. Secci\u00f3n en Espa\u00f1ol",
+                "level": "H2",
+                "page": 1
+            },
+            {
+                "text": "3. Section Fran\u00e7aise",
+                "level": "H2",
+                "page": 1
+            }
+        ],
+        "title": "Multilingual Document Test"
+    },
+    "enhanced": {
+        "processing_time": 0.011409521102905273,
+        "total_headings": 4,
+        "headings": [
+            {
+                "text": "Multilingual Document Test",
+                "level": "H1",
+                "page": 1,
+                "font_size": 20.0,
+                "is_bold": true
+            },
+            {
+                "text": "1. English Section",
+                "level": "H4",
+                "page": 1,
+                "font_size": 16.0,
+                "is_bold": true
+            },
+            {
+                "text": "2. Secci\u00f3n en Espa\u00f1ol",
+                "level": "H4",
+                "page": 1,
+                "font_size": 16.0,
+                "is_bold": true
+            },
+            {
+                "text": "3. Section Fran\u00e7aise",
+                "level": "H4",
+                "page": 1,
+                "font_size": 16.0,
+                "is_bold": true
+            }
+        ],
+        "title": "Multilingual Document Test",
+        "detected_language": "es"
+    },
+    "ml_enhanced": {
+        "processing_time": 0.05254101753234863,
+        "total_headings": 2,
+        "headings": [
+            {
+                "text": "1. English Section",
+                "level": "H3",
+                "page": 1,
+                "font_size": 16.0,
+                "is_bold": true,
+                "confidence": 0.633904761904762,
+                "classification_method": "ML"
+            },
+            {
+                "text": "3. Section Fran\u00e7aise",
+                "level": "H3",
+                "page": 1,
+                "font_size": 16.0,
+                "is_bold": true,
+                "confidence": 0.6267301587301588,
+                "classification_method": "ML"
+            }
+        ],
+        "title": "Multilingual Document Test",
+        "detected_language": "es",
+        "classification_method": "ML",
+        "ml_model_info": {
+            "status": "ML model loaded",
+            "feature_count": 12,
+            "features": [
+                "font_size_norm",
+                "is_bold",
+                "is_italic",
+                "indentation_norm",
+                "vertical_spacing_before_norm",
+                "vertical_spacing_after_norm",
+                "word_count_norm",
+                "char_count_norm",
+                "position_y_norm",
+                "line_length_ratio",
+                "capitalization_ratio",
+                "punctuation_ratio"
+            ],
+            "classes": [
+                "body",
+                "H3",
+                "H2",
+                "H1"
+            ],
+            "feature_importance": {
+                "font_size_norm": 0.2578925010371477,
+                "is_bold": 0.017786704863503637,
+                "is_italic": 0.001788474623564529,
+                "indentation_norm": 0.030756661840732467,
+                "vertical_spacing_before_norm": 0.16710448224915958,
+                "vertical_spacing_after_norm": 0.0802554731959635,
+                "word_count_norm": 0.05174278247958986,
+                "char_count_norm": 0.22541750667321928,
+                "position_y_norm": 0.011999371529534808,
+                "line_length_ratio": 0.03096330440256458,
+                "capitalization_ratio": 0.10606710061530622,
+                "punctuation_ratio": 0.018225636489713707
+            }
+        }
+    }
+}

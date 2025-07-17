@@ -1,0 +1,88 @@
+{
+    "metadata": {
+        "persona": {
+            "name": "Tech Enthusiast",
+            "description": "A person interested in the latest advancements in artificial intelligence and machine learning, particularly their practical applications and societal impact."
+        },
+        "job_to_be_done": "Find information about AI applications in healthcare",
+        "processing_time_seconds": 0.5668239593505859,
+        "total_documents": 2,
+        "total_sections": 4,
+        "document_metadata": [
+            {
+                "file_path": "./input/dummy.pdf",
+                "title": "My Awesome Document Title",
+                "total_pages": 2,
+                "total_headings": 2
+            },
+            {
+                "file_path": "./input/multilingual_test.pdf",
+                "title": "Multilingual Document Test",
+                "total_pages": 1,
+                "total_headings": 2
+            }
+        ]
+    },
+    "extracted_sections": [
+        {
+            "title": "1. Introduction to AI",
+            "level": "H3",
+            "page": 1,
+            "full_text_content": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks.\n",
+            "word_count": 53,
+            "document_source": "dummy.pdf",
+            "section_index": 0,
+            "importance_rank": 0.503767111867975,
+            "font_size": 18.0,
+            "is_bold": true,
+            "refined_text": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks.",
+            "relevance_score": 0.5038,
+            "final_rank": 1
+        },
+        {
+            "title": "2. Applications of AI",
+            "level": "H3",
+            "page": 2,
+            "full_text_content": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment.\n",
+            "word_count": 38,
+            "document_source": "dummy.pdf",
+            "section_index": 1,
+            "importance_rank": 0.3058481478672,
+            "font_size": 18.0,
+            "is_bold": true,
+            "refined_text": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment.",
+            "relevance_score": 0.3058,
+            "final_rank": 2
+        },
+        {
+            "title": "3. Section Fran\u00e7aise",
+            "level": "H3",
+            "page": 1,
+            "full_text_content": "Multilingual Document Test\n1. English Section\nThis is an English paragraph about artificial intelligence.\n2. Secci\u00f3n en Espa\u00f1ol\nEsta es una secci\u00f3n en espa\u00f1ol sobre inteligencia artificial.\n3. Section Fran\u00e7aise\nCeci est une section fran\u00e7aise sur l'intelligence artificielle.\n",
+            "word_count": 38,
+            "document_source": "multilingual_test.pdf",
+            "section_index": 1,
+            "importance_rank": 0.10910197212868186,
+            "font_size": 16.0,
+            "is_bold": true,
+            "refined_text": "Multilingual Document Test\n1. English Section\nThis is an English paragraph about artificial intelligence.\n2. Secci\u00f3n en Espa\u00f1ol\nEsta es una secci\u00f3n en espa\u00f1ol sobre inteligencia artificial.\n3. Section Fran\u00e7aise\nCeci est une section fran\u00e7aise sur l'intelligence artificielle.",
+            "relevance_score": 0.1091,
+            "final_rank": 3
+        },
+        {
+            "title": "1. English Section",
+            "level": "H3",
+            "page": 1,
+            "full_text_content": "",
+            "word_count": 0,
+            "document_source": "multilingual_test.pdf",
+            "section_index": 0,
+            "importance_rank": 0.0,
+            "font_size": 16.0,
+            "is_bold": true,
+            "refined_text": "",
+            "relevance_score": 0.0,
+            "final_rank": 4
+        }
+    ]
+}

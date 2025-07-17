@@ -1,0 +1,35 @@
+{
+    "title": "My Awesome Document Title",
+    "headings": [
+        {
+            "text": "1. Introduction to AI",
+            "level": "H3",
+            "page": 1,
+            "font_size": 18.0,
+            "is_bold": true,
+            "confidence": 0.6256118326118326,
+            "classification_method": "ML"
+        },
+        {
+            "text": "2. Applications of AI",
+            "level": "H3",
+            "page": 2,
+            "font_size": 18.0,
+            "is_bold": true,
+            "confidence": 0.6254285714285716,
+            "classification_method": "ML"
+        }
+    ],
+    "full_text_by_page": {
+        "1": "My Awesome Document Title\n1. Introduction to AI\nThis section provides an overview of Artificial Intelligence.\nAI is transforming various industries.\n1.1 Machine Learning Basics\nMachine learning is a subset of AI that enables systems to learn from data.\n1.2 Deep Learning Advances\nDeep learning, a subfield of machine learning, uses neural networks.\n",
+        "2": "2. Applications of AI\nAI has numerous applications across different sectors.\n2.1 AI in Healthcare\nFrom diagnostics to drug discovery, AI is revolutionizing healthcare.\n2.2 AI in Finance\nAI helps in fraud detection, algorithmic trading, and risk assessment.\n"
+    },
+    "metadata": {
+        "processing_time_seconds": 0.3985714912414551,
+        "detected_language": "en",
+        "total_pages": 2,
+        "total_headings": 2,
+        "ml_classification_used": true,
+        "classification_method": "ML"
+    }
+}

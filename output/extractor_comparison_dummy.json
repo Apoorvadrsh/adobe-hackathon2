@@ -1,0 +1,166 @@
+{
+    "original": {
+        "processing_time": 0.009280681610107422,
+        "total_headings": 7,
+        "headings": [
+            {
+                "text": "My Awesome Document Title",
+                "level": "H1",
+                "page": 1
+            },
+            {
+                "text": "1. Introduction to AI",
+                "level": "H2",
+                "page": 1
+            },
+            {
+                "text": "1.1 Machine Learning Basics",
+                "level": "H3",
+                "page": 1
+            },
+            {
+                "text": "1.2 Deep Learning Advances",
+                "level": "H3",
+                "page": 1
+            },
+            {
+                "text": "2. Applications of AI",
+                "level": "H1",
+                "page": 2
+            },
+            {
+                "text": "2.1 AI in Healthcare",
+                "level": "H2",
+                "page": 2
+            },
+            {
+                "text": "2.2 AI in Finance",
+                "level": "H2",
+                "page": 2
+            }
+        ],
+        "title": "My Awesome Document Title"
+    },
+    "enhanced": {
+        "processing_time": 0.3417630195617676,
+        "total_headings": 7,
+        "headings": [
+            {
+                "text": "My Awesome Document Title",
+                "level": "H1",
+                "page": 1,
+                "font_size": 24.0,
+                "is_bold": true
+            },
+            {
+                "text": "1. Introduction to AI",
+                "level": "H2",
+                "page": 1,
+                "font_size": 18.0,
+                "is_bold": true
+            },
+            {
+                "text": "1.1 Machine Learning Basics",
+                "level": "H3",
+                "page": 1,
+                "font_size": 16.0,
+                "is_bold": true
+            },
+            {
+                "text": "1.2 Deep Learning Advances",
+                "level": "H3",
+                "page": 1,
+                "font_size": 16.0,
+                "is_bold": true
+            },
+            {
+                "text": "2. Applications of AI",
+                "level": "H2",
+                "page": 2,
+                "font_size": 18.0,
+                "is_bold": true
+            },
+            {
+                "text": "2.1 AI in Healthcare",
+                "level": "H3",
+                "page": 2,
+                "font_size": 16.0,
+                "is_bold": true
+            },
+            {
+                "text": "2.2 AI in Finance",
+                "level": "H3",
+                "page": 2,
+                "font_size": 16.0,
+                "is_bold": true
+            }
+        ],
+        "title": "My Awesome Document Title",
+        "detected_language": "en"
+    },
+    "ml_enhanced": {
+        "processing_time": 0.054635047912597656,
+        "total_headings": 2,
+        "headings": [
+            {
+                "text": "1. Introduction to AI",
+                "level": "H3",
+                "page": 1,
+                "font_size": 18.0,
+                "is_bold": true,
+                "confidence": 0.6256118326118326,
+                "classification_method": "ML"
+            },
+            {
+                "text": "2. Applications of AI",
+                "level": "H3",
+                "page": 2,
+                "font_size": 18.0,
+                "is_bold": true,
+                "confidence": 0.6254285714285716,
+                "classification_method": "ML"
+            }
+        ],
+        "title": "My Awesome Document Title",
+        "detected_language": "en",
+        "classification_method": "ML",
+        "ml_model_info": {
+            "status": "ML model loaded",
+            "feature_count": 12,
+            "features": [
+                "font_size_norm",
+                "is_bold",
+                "is_italic",
+                "indentation_norm",
+                "vertical_spacing_before_norm",
+                "vertical_spacing_after_norm",
+                "word_count_norm",
+                "char_count_norm",
+                "position_y_norm",
+                "line_length_ratio",
+                "capitalization_ratio",
+                "punctuation_ratio"
+            ],
+            "classes": [
+                "body",
+                "H3",
+                "H2",
+                "H1"
+            ],
+            "feature_importance": {
+                "font_size_norm": 0.2578925010371477,
+                "is_bold": 0.017786704863503637,
+                "is_italic": 0.001788474623564529,
+                "indentation_norm": 0.030756661840732467,
+                "vertical_spacing_before_norm": 0.16710448224915958,
+                "vertical_spacing_after_norm": 0.0802554731959635,
+                "word_count_norm": 0.05174278247958986,
+                "char_count_norm": 0.22541750667321928,
+                "position_y_norm": 0.011999371529534808,
+                "line_length_ratio": 0.03096330440256458,
+                "capitalization_ratio": 0.10606710061530622,
+                "punctuation_ratio": 0.018225636489713707
+            }
+        }
+    }
+}

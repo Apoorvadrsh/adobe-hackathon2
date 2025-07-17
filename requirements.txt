@@ -1,0 +1,13 @@
+
+PyMuPDF
+nltk
+summa
+rake-nltk
+spacy
+fasttext
+scikit-learn
+reportlab
+langdetect
+gensim
+
+
